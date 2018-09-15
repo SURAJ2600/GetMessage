@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/padding8"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_contact"
+        android:layout_width="@dimen/padding45"
+        android:layout_height="@dimen/padding45"
+        android:layout_margin="@dimen/padding5"
+        android:padding="@dimen/padding5"
+        android:src="@mipmap/ic_contact"
+        app:civ_border_width="@dimen/padding1"
+        app:civ_border_color="@color/gery_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding8"
+        android:layout_marginEnd="@dimen/padding8"
+        android:layout_marginStart="@dimen/padding8"
+        android:layout_marginTop="@dimen/padding8"
+        android:text="+812051515155"
+        android:textColor="@color/message_title"
+        android:textSize="@dimen/message_titlesize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/img_contact"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_mesagebody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding8"
+        android:layout_marginEnd="@dimen/padding8"
+        android:layout_marginRight="@dimen/padding8"
+        android:maxLength="55"
+
+        android:singleLine="true"
+        android:text="n new way to oraguin dat is to implment the right "
+        android:textColor="@color/message_decription"
+
+        android:textSize="@dimen/message_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_number"
+        app:layout_constraintTop_toBottomOf="@+id/txt_number"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding8"
+        android:layout_marginEnd="@dimen/padding8"
+        android:layout_marginStart="@dimen/padding8"
+        android:layout_marginTop="@dimen/padding8"
+        android:singleLine="true"
+        android:text="11/12/2018"
+        android:textColor="@color/message_decription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>

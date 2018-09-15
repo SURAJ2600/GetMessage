@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GetMessage</string>
+    <string name="alert_sms">Please accept permission to read sms</string>
+    <string name="no_message">No Message</string>
+</resources>
